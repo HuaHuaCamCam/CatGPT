@@ -1,0 +1,97 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container-fluid {
+    height: 100vh;
+    background-color: #343541;
+    overflow: auto;
+    color: white;
+}
+
+.header {
+    padding: 20px;
+    width: 100%;
+    background-color: #343541;
+    color: white;
+    
+}
+
+.bodychat {
+    width: 100%;
+    height: 86vh;
+
+    overflow: auto;
+    background-color: #343541;
+    color: #fff;
+    padding: 0 6rem;
+}
+
+.chat-gpt-bubble {
+    padding: 1rem 1rem;
+    background-color: #7c7d80;
+    border-radius: 10px;
+}
+
+.chat-gpt-bubble-container{
+   
+}
+
+.user-bubble-container{
+    color: rgb(192, 184, 175);
+
+}
+.avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 0.5rem;
+    margin: 0.5rem 1rem;
+}
+
+
+.input-area{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #343541;
+}
+
+#form {
+    width: 60%;
+  }
+
+input {
+    width: calc(100% - 2em);
+
+    background-color: #40414F;
+    border: none;
+    color: #ececf1;
+    font-size: 1em;
+    padding: 1em 1em;
+    border-radius: 5px;
+    outline: none;
+}
+
+i{
+    font-size: 1.5rem;
+    padding: 15px;
+    
+    color: #ececf1;
+    outline: none;
+    border-radius: 0 10px 10px 0px;
+
+}
+i:hover{
+    opacity: 0.5;
+}
+.input-form span {
+  font-size: 0,8em;
+  color:  #7c7d80;
+  font-family: italic ;
+}
